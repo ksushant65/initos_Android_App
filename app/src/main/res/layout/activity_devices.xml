@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".UI.AllDevicesActivity">
+
+    <android.support.v7.widget.RecyclerView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/device_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="8dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        />
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:layout_alignParentEnd="true"
+        app:fabSize="normal"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/qr"
+        app:layout_anchorGravity="bottom|right|end"/>
+    
+    
+    <FrameLayout
+        android:elevation="12dp"
+        android:visibility="invisible"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <major.smartconfig.UI.Tools.RadarView
+            android:id="@+id/radarView"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        
+    </FrameLayout>
+</RelativeLayout>

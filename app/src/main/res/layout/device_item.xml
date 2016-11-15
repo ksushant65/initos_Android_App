@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="40dp"
+        android:src="@drawable/ipod"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:paddingBottom="0dp"
+        android:layout_toEndOf="@id/photo"
+        android:text="Device Name"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/ip_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@id/photo"
+        android:layout_below="@id/name"
+        android:text="ip address"
+        android:layout_marginBottom="8dp"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/current_config"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:text="20 C"
+        android:textSize="28sp"
+        />
+</RelativeLayout>

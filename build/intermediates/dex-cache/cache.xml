@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/rahul/Android/AndroidStudioProjects/Vesta New/SmartConfig/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="50e2e5f869825d06f7eae46352a049b44220bfb6">
+        <dex dex="/home/rahul/Android/AndroidStudioProjects/Vesta New/SmartConfig/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_176e734b866c36800a2a0b9e9b442f7ba91320a7/classes.dex" />
+    </item>
+
+</items>
